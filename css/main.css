@@ -1,21 +1,22 @@
 body {
-  margin: 0;
+  width:100%;
   padding: 0;
-  background-image: url("../img/Landscape.jpg");
-}
-
-.row {
-  width: 100%;
+  margin: 0 auto;
 
 }
 
-.kitten {
-  height: 960px;
+.container {
+  width:100%;
   display:flex;
   justify-content: center;
   align-items: center;
+  position:relative;
 }
 
-.col-12 {
-  width: 100%;
+.kitten {
+  position:absolute;
+}
+
+.background {
+  width: 100%
 }
