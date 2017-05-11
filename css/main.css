@@ -6,7 +6,16 @@ body {
 
 .row {
   width: 100%;
+
+}
+
+.kitten {
+  height: 960px;
   display:flex;
   justify-content: center;
   align-items: center;
+}
+
+.col-12 {
+  width: 100%;
 }
